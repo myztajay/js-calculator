@@ -1,4 +1,21 @@
+body{
+  background-image: url(bg.jpg);
+}
+
 
 .jumbotron{
-  
+
+}
+#answer{
+  border: solid 5px black;
+  font-size: 300px;
+}
+
+.btn-danger{
+  background-color: #5726a0;
+  border-color: black;
+  color:white;
+}
+.btn-danger:hover{
+  background-color: #5726a0
 }
