@@ -10,7 +10,30 @@ var calculator = {
   },
   div: function(x,y){
     return  x/y;
+  },
+  exp: function(x,y){
+    return Math.pow(x, y);
   }
 };
 
-console.log(calculator.add(1,3));
+
+function changeButton(i){
+  x = document.getElementById(i).innerHTML;
+  document.getElementById("choose").innerHTML = x;
+  return x;
+}
+
+
+
+
+
+//let addopElem = document.getElementById('addop');
+//addopElem.
+
+function collect(){
+
+  x = document.getElementById('firstNumber').value;
+  y = document.getElementById('choose').value;
+  z = document.getElementById('secondNumber').value;
+  answer = x y z;
+}
