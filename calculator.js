@@ -46,6 +46,8 @@ function collect(){
   else if (document.getElementById("choose").innerHTML == "Refactor Prime"){
     document.getElementById("answer").innerHTML =
     '<iframe src="https://player.vimeo.com/video/120469122?autoplay=1&color=c9ff23&title=0&byline=0&portrait=0" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+    console.log("RICK ROLLED");
+    alert("Now you've done it...");
   }
 
 }
